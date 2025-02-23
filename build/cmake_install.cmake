@@ -1,4 +1,4 @@
-# Install script for directory: /home/ram/Documents/Programming/c++/Broker
+# Install script for directory: /home/ram/Documents/Programming/c++/TcpBroker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Broker"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ram/Documents/Programming/c++/Broker/build/Broker")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ram/Documents/Programming/c++/TcpBroker/build/Broker")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Broker" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/Broker")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -59,13 +59,13 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ram/Documents/Programming/c++/Broker/build/CMakeFiles/Broker.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/ram/Documents/Programming/c++/TcpBroker/build/CMakeFiles/Broker.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/ram/Documents/Programming/c++/Broker/build/install_local_manifest.txt"
+  file(WRITE "/home/ram/Documents/Programming/c++/TcpBroker/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -81,6 +81,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/ram/Documents/Programming/c++/Broker/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/ram/Documents/Programming/c++/TcpBroker/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
