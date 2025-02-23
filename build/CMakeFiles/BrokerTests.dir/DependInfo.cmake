@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ram/Documents/Programming/c++/Broker/tests/BrokerTests.cpp" "CMakeFiles/BrokerTests.dir/tests/BrokerTests.cpp.o" "gcc" "CMakeFiles/BrokerTests.dir/tests/BrokerTests.cpp.o.d"
-  "/home/ram/Documents/Programming/c++/Broker/tests/NetworkTests.cpp" "CMakeFiles/BrokerTests.dir/tests/NetworkTests.cpp.o" "gcc" "CMakeFiles/BrokerTests.dir/tests/NetworkTests.cpp.o.d"
-  "/home/ram/Documents/Programming/c++/Broker/tests/UtilsTests.cpp" "CMakeFiles/BrokerTests.dir/tests/UtilsTests.cpp.o" "gcc" "CMakeFiles/BrokerTests.dir/tests/UtilsTests.cpp.o.d"
+  "/home/ram/Documents/Programming/c++/TcpBroker/tests/BrokerTests.cpp" "CMakeFiles/BrokerTests.dir/tests/BrokerTests.cpp.o" "gcc" "CMakeFiles/BrokerTests.dir/tests/BrokerTests.cpp.o.d"
+  "/home/ram/Documents/Programming/c++/TcpBroker/tests/NetworkTests.cpp" "CMakeFiles/BrokerTests.dir/tests/NetworkTests.cpp.o" "gcc" "CMakeFiles/BrokerTests.dir/tests/NetworkTests.cpp.o.d"
+  "/home/ram/Documents/Programming/c++/TcpBroker/tests/UtilsTests.cpp" "CMakeFiles/BrokerTests.dir/tests/UtilsTests.cpp.o" "gcc" "CMakeFiles/BrokerTests.dir/tests/UtilsTests.cpp.o.d"
   "" "BrokerTests" "gcc" "CMakeFiles/BrokerTests.dir/link.d"
   )
 

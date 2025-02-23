@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ram/Documents/Programming/c++/Broker/include
+CXX_INCLUDES = -I/home/ram/Documents/Programming/c++/TcpBroker/include
 
 CXX_FLAGS = -std=gnu++17
 
