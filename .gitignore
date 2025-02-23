@@ -1,0 +1,48 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+Broker  # Your executable name
+
+# CMake build directory
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+*.user
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Dependency directories
+deps/
+vendor/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test binaries
+BrokerTests  # Your test executable name
